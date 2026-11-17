@@ -1,6 +1,6 @@
 package az.itbrains.eccomerce.controllers;
 
-import az.itbrains.eccomerce.controllers.CategoryHomeDTO;
+import az.itbrains.eccomerce.dtos.category.CategoryHomeDTO;
 import az.itbrains.eccomerce.repositories.CategoryRepository;
 import az.itbrains.eccomerce.services.CategoryService;
 import org.springframework.http.HttpStatus;

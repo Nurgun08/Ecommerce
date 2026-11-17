@@ -1,4 +1,4 @@
 package az.itbrains.eccomerce.services;
 
-public class ProductService {
+public interface ProductService {
 }

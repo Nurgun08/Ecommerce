@@ -20,6 +20,6 @@ public class Product {
      String name;
 
      @ManyToOne
-     Category category;
+     SubCategory subCategory;
 
 }

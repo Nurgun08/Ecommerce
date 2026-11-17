@@ -21,9 +21,14 @@ public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
+    @Column(length=50 , nullable=false)
     String name ;
-    @OneToMany
-    List<Product> products=new ArrayList<>();
 
+    @Column(length=100)
+  String description ;
+
+
+    @OneToMany(mappedBy="category")
+    List<SubCategory> subCategories=new ArrayList<>();
 
 }

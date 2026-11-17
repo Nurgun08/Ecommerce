@@ -1,4 +1,4 @@
-package az.itbrains.eccomerce.controllers;
+package az.itbrains.eccomerce.dtos.category;
 
 
 import lombok.AccessLevel;
